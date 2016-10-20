@@ -7,6 +7,8 @@
 	</head>
 	<body>
     
+Item names:
+      <g:select name="test" from="${Item.list()*.name}" />
 
 
 ${Item.count()} Items:
